@@ -1,0 +1,94 @@
+
+/*  Yahoo CSS Reset  */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {  
+  padding: 0; 
+  margin: 0; 
+  } 
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+  } 
+fieldset,img {  
+  border: 0; 
+  } 
+address,caption,cite,code,dfn,em,strong,th,var { 
+  font-weight: normal; 
+  font-style: normal; 
+  } 
+ol,ul { 
+  list-style: none; 
+  } 
+caption,th { 
+  text-align: left; 
+  } 
+h1,h2,h3,h4,h5,h6 { 
+  font-weight: normal; 
+  font-size: 100%; 
+  } 
+q:before,q:after { 
+  content:''; 
+  } 
+abbr,acronym { border: 0; 
+  } 
+
+  /* End Yahoo CSS Reset */ 
+
+ 
+body{
+  background-color: #979797;
+}
+
+.wriper{
+margin: auto;
+width: 1060px;
+
+}
+
+header{
+  height: 794px; 
+   background: linear-gradient(to bottom, #585858, #a2a2a2);
+}
+
+.text-row-1{
+  height: 313px;
+}
+
+.text-row-2{
+  height: 313px;
+  background-color: #ddd ; 
+}
+
+.products{
+  height: 490px;
+  background-color: #ccc;
+}
+
+footer{
+height: 225px;
+width: 100%;
+background-color: #aaa;
+padding-top: 100px;
+}
+
+.footer-logo {
+ 
+
+height: 60px;
+width: 250px;
+border: 2px solid #fff;
+margin-left:   auto;
+margin-right:  auto; 
+text-align: center; 
+
+font-size:  40px;
+color: #fff;
+}
+
+.bottom-border{
+  width: 150px;
+  margin-left:   auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-bottom: 2px solid #fff;
+
+ }
